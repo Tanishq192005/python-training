@@ -12,3 +12,8 @@ print("-"*20, end="\n")
 
 for i, fruit in enumerate(fruits, start=3):
   print(i, fruit)
+
+i=1
+for i in range(1,6):
+  print(i) 
+  i+=1
