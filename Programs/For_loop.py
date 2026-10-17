@@ -13,7 +13,19 @@ print("-"*20, end="\n")
 for i, fruit in enumerate(fruits, start=3):
   print(i, fruit)
 
-i=1
-for i in range(1,6):
-  print(i) 
-  i+=1
+print("-"*20, end="\n")
+
+# Pattern printing
+n=5
+for i in range(1,n+1):
+  for j in range(1, i+1):
+    print(j, end=" ")
+  print()
+
+print("-"*20, end="\n")
+
+n=5
+for i in range(n, 0, -1):
+  for j in range(1, i+1):
+    print(j, end=" ")
+  print()
